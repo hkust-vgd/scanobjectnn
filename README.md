@@ -24,6 +24,9 @@ Documentation on dataset coming soon!
 ## Code
 Documentation on code structure coming soon!
 
+## Pre-trained Models
+Pre-trained will be released soon!
+
 ## References
 Our released code heavily based on each methods original repositories as cited below:
 * <a href="https://github.com/charlesq34/pointnet" target="_blank">PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation</a> by Qi et al. (CVPR 2017 Oral Presentation).
