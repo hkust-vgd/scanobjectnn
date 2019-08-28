@@ -1,0 +1,6 @@
+background
+head
+back
+arm
+base
+seat
