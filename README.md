@@ -25,7 +25,7 @@ Documentation on dataset coming soon!
 Documentation on code structure coming soon!
 
 ## Pre-trained Models
-Pre-trained will be released soon!
+Pre-trained models will be released soon!
 
 ## References
 Our released code heavily based on each methods original repositories as cited below:
