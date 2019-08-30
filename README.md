@@ -29,7 +29,7 @@ Pre-trained models will be released soon!
 
 ## References
 Our released code heavily based on each methods original repositories as cited below:
-* <a href="https://github.com/charlesq34/pointnet" target="_blank">PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation</a> by Qi et al. (CVPR 2017 Oral Presentation).
+* <a href="https://github.com/charlesq34/pointnet" target="_blank">PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation</a> by Qi et al. (CVPR 2017).
 * <a href="https://github.com/charlesq34/pointnet2" target="_black">PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space</a> by Qi et al. (NIPS 2017).
 * <a href="https://github.com/WangYueFt/dgcnn" target="_black"> Dynamic Graph CNN for Learning on Point Clouds</a> by Wang et al. (TOG 2019).
 * <a href="https://github.com/yangyanli/PointCNN" target="_black">PointCNN: Convolution On X-Transformed Points</a> by Li et al. (NIPS 2018).
