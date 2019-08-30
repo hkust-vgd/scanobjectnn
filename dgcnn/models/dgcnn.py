@@ -12,7 +12,7 @@ from transform_nets import input_transform_net
 
 # NUM_CLASSES = 20
 # NUM_CLASSES = 10
-# NUM_CLASSES = 15
+NUM_CLASSES = 15
 # NUM_CLASSES = 40
 
 def placeholder_inputs(batch_size, num_point):

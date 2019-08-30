@@ -14,10 +14,10 @@ keep_remainder = True
 save_ply_fn = None
 
 #For ModelNet40 model
-# num_class = 40
+num_class = 40
 
-#For ScanObjectNN
-num_class = 15
+# #For ScanObjectNN
+# num_class = 15
 
 sample_num = 1024
 

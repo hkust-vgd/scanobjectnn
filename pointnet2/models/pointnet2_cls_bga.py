@@ -18,7 +18,7 @@ def placeholder_inputs(batch_size, num_point):
     return pointclouds_pl, labels_pl, mask_pl
 
 
-def get_model(point_cloud, is_training, bn_decay=None):
+def get_model(point_cloud, is_training, bn_decay=None, num_class=NUM_CLASSES):
     """ Part segmentation PointNet, input is BxNx3 (XYZ) """
     batch_size = point_cloud.get_shape()[0].value
     num_point = point_cloud.get_shape()[1].value
@@ -46,7 +46,7 @@ def get_model(point_cloud, is_training, bn_decay=None):
     # print(class_vector.shape)
     # print()
     net = tf_util.dropout(net, keep_prob=0.5, is_training=is_training, scope='dp2')
-    class_pred = tf_util.fully_connected(net, NUM_CLASSES, activation_fn=None, scope='fc3')
+    class_pred = tf_util.fully_connected(net, num_class, activation_fn=None, scope='fc3')
 
     ###########SEGMENTATION BRANCH
     # Feature Propagation layers
