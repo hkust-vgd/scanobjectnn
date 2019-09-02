@@ -45,7 +45,7 @@ We release all the raw object files of our ScanObjectNN dataset including all it
     ```    
 * The object .bin files are located at **[object_class]/[scene_folder]_[object_id].bin** in the dataset folder.
 * Each .bin file is a series of *float32*. The first float represents the total number of points in the object instance. Then every succeeding set of 11 floats represent the attributes of each point. (ie if there are m points in the point cloud, then there are (11m + 1) floats in the .bin file)
-* The attributes of the points are listed in the following order:
+* The attributes of each point are listed in the following order:
     ```
     x    y    z    nx    ny    nz    r    g    b    instance_label    semantic_label
     ```  
