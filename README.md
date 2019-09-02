@@ -28,7 +28,7 @@ Our ScanObjectNN Dataset can be downloaded from here: [HKUST OneDrive](https://g
    2. **label**: class label
    3. **mask**: indicator whether each point is part of the object instance or the background.
 * Each object contained 2048 points, where each point is represented by its x, y, z coordinates. 
-* We first ensured that a data sample had at least 2048 object instance points (excluding the background) before 2048 points were randomly selected (including the background points) and included into the h5 file. For the \*_nobg h5 files, background points were first filtered out before the random selection 
+* We first ensured that a data sample had at least 2048 object instance points (excluding the background) before 2048 points were randomly selected (including the background points) and included into the h5 file. For the \*_nobg h5 files, background points were first filtered out before the random selection. 
 * Naming convention: Prefixes are *training_** and *test_** for training set and test set, respectively.
     * **OBJ_BG** / **OBJ_ONLY**: *\*objectdataset.h5*
     * **PB_T25**: *\*objectdataset_augmented25_norot.h5*
@@ -37,7 +37,22 @@ Our ScanObjectNN Dataset can be downloaded from here: [HKUST OneDrive](https://g
     * **PB_T50_RS**: *\*objectdataset_augmentedrot_scale75.h5*
 
 ### Raw files
-[TODO]
+We release all the raw object files of our ScanObjectNN dataset including all its variants.
+* To obtain the files, download the zipped files of each corresponding variant. *object_dataset.zip* refers to the unaugmented variant (OBJ_BG).
+* The list of all objects can be found at *training_data/object_labels.txt*. The format per line is (separated by '\t'):
+    ```
+    scene_folder    object_id    object_class    object_instance_label
+    ```    
+* The object .bin files are located at **[object_class]/[scene_folder]_[object_id].bin** in the dataset folder.
+* Each .bin file is a series of *float32*. The first float represents the total number of points in the object instance. Then every succeeding set of 11 floats represent the attributes of each point. (ie if there are m points in the point cloud, then there are (11m + 1) floats in the .bin file)
+* The attributes of the points are listed in the following order:
+    ```
+    x    y    z    nx    ny    nz    r    g    b    instance_label    semantic_label
+    ```  
+* We generated training and test split files located in *training_data/*, where 't' in each line of the text file indicates that the object is part of the test split.
+
+Parts:
+* V0 of the dataset with complete parts can be found in *object_dataset_complete_with_parts.zip*. Corresponding part labels can be found in the xml files located in *training_data/part_labels/*.
 
 ## Code
 Documentation on code structure coming soon!
