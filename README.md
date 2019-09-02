@@ -52,7 +52,7 @@ We release all the raw object files of our ScanObjectNN dataset including all it
 * We generated training and test split files located in *training_data/*, where 't' in each line of the text file indicates that the object is part of the test split.
 
 Parts:
-* V0 of the dataset with complete parts can be found in *object_dataset_complete_with_parts.zip*. Corresponding part labels can be found in the xml files located in *training_data/part_labels/*.
+* V0 of the raw files with complete parts can be found in *object_dataset_complete_with_parts.zip*. Corresponding part labels can be found in the xml files located in *training_data/part_labels/*.
 
 ## Code
 Documentation on code structure coming soon!
