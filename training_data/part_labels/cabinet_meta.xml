@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colormap>
+    <class id="0" text="unknown" color="127 127 127" />
+    <class id="1" text="countertop" color="31 119 180" />
+    <class id="2" text="shelf" color="255 127 15" />
+    <class id="3" text="frame" color="44 160 44" />
+    <class id="4" text="drawer" color="214 39 40" />
+    <class id="5" text="base" color="148 103 189"/>
+    <class id="6" text="door" color="140 86 76"/>
+</colormap>
+<!-- from tableau 10 -->

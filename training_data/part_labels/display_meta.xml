@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colormap>
+    <class id="0" text="unknown" color="127 127 127" />
+    <class id="1" text="screen" color="31 119 180" />
+    <class id="2" text="base" color="255 127 15" />
+</colormap>

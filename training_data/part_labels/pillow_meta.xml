@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colormap>
+    <class id="0" text="unknown" color="127 127 127" />
+    <class id="1" text="pillow" color="31 119 180" />
+</colormap>

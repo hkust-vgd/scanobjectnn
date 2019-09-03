@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colormap>
+    <class id="0" text="unknown" color="127 127 127" />
+    <class id="1" text="container" color="31 119 180" />
+    <class id="2" text="outside_frame" color="255 127 15" />
+    <class id="3" text="base" color="44 160 44" />
+    <class id="4" text="cover" color="214 39 40" />
+</colormap>
