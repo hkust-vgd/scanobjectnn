@@ -55,7 +55,60 @@ Parts:
 * V0 of the raw files with complete parts can be found in *object_dataset_complete_with_parts.zip*. Corresponding part labels can be found in the xml files located in *training_data/part_labels/*.
 
 ## Code
-Documentation on code structure coming soon!
+### Installation
+Pre-requisites:
+* python
+* cuda
+* tensorflow
+* h5py
+* scipy
+* sklearn
+
+This code has been tested with Python 3.5, Tensorflow 1.10 and CUDA 9.0 on Ubuntu 16.04. Please follow instructions in [PointNet++](https://github.com/charlesq34/pointnet2) to compile tf_ops in *pointnet2/* and *SpiderCNN/* subfolders.
+
+### Usage
+#### Training
+To train the benchmark classification models, run the following commands:
+```
+cd [method_folder]
+python train.py
+```
+To see optional arguments, run:
+```
+cd [method_folder]
+python train.py -h
+```
+To train using our BGA models, run:
+```
+cd [dgcnn or pointnet2]
+python train_seg.py
+```
+The model files are pointnet2_cls_bga.py and dgcnn_bga.py.
+
+#### Evaluation
+To evaluate the benchmark classification models, run the following commands:
+```
+cd [method_folder]
+python evaluate_scenennobjects.py
+```
+To evaluate our BGA models, run:
+```
+cd [dgcnn or pointnet2]
+python evaluate_seg_scenennobjects.py
+```
+
+#### Generalization of real vs synthetic
+To evaluate on ScanObjectNN when trained on ModelNet, run:
+```
+cd [method_folder]
+python evaluate_real_trained_on_synthetic.py
+```
+To evaluate on ModelNet when trained on ScanObjectNN, run:
+```
+cd [method_folder]
+python evaluate_synthetic_trained_on_real.py
+```
+The class mapping file can be found at *mapping2.py*, details can be found in our supplementary material. Before running these experiments, please make sure you have the trained model files and a single .h5 file for the ModelNet data. The arguments need to be specified accordingly. 
 
 ## Pre-trained Models
 Pre-trained models can be downloaded [here](https://drive.google.com/open?id=1somhNuzwEnJB7J6ESGuW_6ZryW8emW6u).
