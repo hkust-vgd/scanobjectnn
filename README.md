@@ -124,3 +124,6 @@ Our released code heavily based on each methods original repositories as cited b
 * <a href="https://github.com/yangyanli/PointCNN" target="_black">PointCNN: Convolution On X-Transformed Points</a> by Li et al. (NIPS 2018).
 * <a href="https://github.com/xyf513/SpiderCNN" target="_black">SpiderCNN: Deep Learning on Point Sets with Parameterized Convolutional Filters</a> by Xu et al. (ECCV 2018).
 * <a href="https://github.com/sitzikbs/3DmFV-Net" target="_black">3DmFV : Three-Dimensional Point Cloud Classification in Real-Time using Convolutional Neural Networks</a> by Ben-Shabat et al. (RA-L 2018).  
+
+## License
+This repository is released under MIT License (see LICENSE file for details).
