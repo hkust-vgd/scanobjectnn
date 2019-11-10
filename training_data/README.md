@@ -1,6 +1,7 @@
 # FAQ
 1. Do you have other download sources?
-    * Our dataset can be downloaded in HKUST OneDrive [here](https://gohkust-my.sharepoint.com/:f:/g/personal/saikit_ust_hk/EqRFLP5XEihCt_PFIHyPNO8BsKb7r8S5V5ELaCqk7UdDTQ?e=FX2OPF) or from the SUTD server [here](http://103.24.77.34:8080/scanobjectnn/).
+    <!-- * Our dataset can be downloaded in HKUST OneDrive [here](https://gohkust-my.sharepoint.com/:f:/g/personal/saikit_ust_hk/EqRFLP5XEihCt_PFIHyPNO8BsKb7r8S5V5ELaCqk7UdDTQ?e=FX2OPF) or from the SUTD server [here](http://103.24.77.34:8080/scanobjectnn/).-->
+    We are currently tidying up the data for public release, if you need an early access for academic purposes, please send an email to mikacuy@gmail.com.
 2. How to evaluate on scanobjectnn with model trained on ModelNet40?
     * Please see the file "evaluate_real_trained_on_synthetic.py". You can see the class mapping file in "mapping2.py".
 3. What is the difference between main_split,split1,split2,split3 and split4?
