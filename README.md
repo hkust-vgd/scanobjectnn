@@ -19,7 +19,7 @@ This work revisits the problem of point cloud classification but on real world s
 ```
 
 ## ScanObjectNN Dataset
-Our ScanObjectNN Dataset can be downloaded from here: [HKUST OneDrive](https://gohkust-my.sharepoint.com/:f:/g/personal/saikit_ust_hk/EqRFLP5XEihCt_PFIHyPNO8BsKb7r8S5V5ELaCqk7UdDTQ?e=FX2OPF) or here: [SUTD server](http://103.24.77.34:8080/scanobjectnn/). We provide different variants of our scan dataset namely: OBJ_BG, PB_T25, PB_T25_R, PB_T50_R and PB_T50_RS as described in our paper. We released both the processed .h5 files and the raw .bin objects as described below.
+<!--Our ScanObjectNN Dataset can be downloaded from here: [HKUST OneDrive](https://gohkust-my.sharepoint.com/:f:/g/personal/saikit_ust_hk/EqRFLP5XEihCt_PFIHyPNO8BsKb7r8S5V5ELaCqk7UdDTQ?e=FX2OPF) or here: [SUTD server](http://103.24.77.34:8080/scanobjectnn/). --> We provide different variants of our scan dataset namely: OBJ_BG, PB_T25, PB_T25_R, PB_T50_R and PB_T50_RS as described in our paper. We released both the processed .h5 files and the raw .bin objects as described below.
 
 ### h5 files
 * Download the **h5_files.zipped** to obtained all the h5 files. Main split was used for the experiments in the [main paper](https://arxiv.org/pdf/1908.04616.pdf), while splits 1-4 are the additional training/test splits reported in our [supplementary material](https://hkust-vgd.github.io/scanobjectnn/assets/iccv19_supp.pdf).
