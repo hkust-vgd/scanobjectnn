@@ -19,9 +19,9 @@ This work revisits the problem of point cloud classification but on real world s
 ```
 
 ## ScanObjectNN Dataset
-### Data download 
+<!--### Data download 
 [http://hkust-vgd.ust.hk/scanobjectnn/](http://hkust-vgd.ust.hk/scanobjectnn/)
-
+-->
 We provide different variants of our scan dataset namely: OBJ_BG, PB_T25, PB_T25_R, PB_T50_R and PB_T50_RS as described in our paper. We released both the processed .h5 files and the raw .bin objects as described below.
 
 ### h5 files
